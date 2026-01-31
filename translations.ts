@@ -1,0 +1,115 @@
+
+export const translations = {
+  th: {
+    nav_home: 'หน้าหลัก',
+    nav_pricing: 'อัตราค่าบริการ',
+    nav_track: 'ติดตามสถานะ',
+    nav_login: 'เข้าสู่ระบบ',
+    nav_logout: 'ออกจากระบบ',
+    hello: 'สวัสดี',
+    balance: 'ยอดเงินคงเหลือ',
+    points: 'แต้มสะสม',
+    tier_member: 'สมาชิกระดับ',
+    
+    admin_hub: 'ศูนย์ควบคุมแอดมิน',
+    admin_erp: 'ระบบบริหารจัดการ ERP',
+    admin_analytics: 'สถิติวิเคราะห์',
+    admin_orders: 'จัดการออเดอร์',
+    admin_services: 'จัดการบริการ',
+    admin_users: 'จัดการสมาชิก',
+    admin_inventory: 'คลังวัสดุ',
+    admin_finance: 'บัญชีรายได้',
+    
+    stat_revenue: 'ยอดรายได้รวม',
+    stat_users: 'ผู้ใช้งานทั้งหมด',
+    stat_pending: 'ออเดอร์ที่ค้าง',
+    stat_total_balance: 'ยอดเงินรวมในระบบ',
+    stat_loyalty: 'คะแนนแจกสะสม',
+    
+    chart_revenue: 'กราฟรายได้',
+    chart_growth: 'จำนวนผู้ใช้งานใหม่',
+    chart_days: 'ย้อนหลัง 7 วัน',
+    
+    member_directory: 'ทำเนียบสมาชิก',
+    crm_desc: 'ระบบจัดการลูกค้าและวอลเล็ท',
+    search_placeholder: 'ค้นหาชื่อหรือเบอร์โทร...',
+    
+    order_id: 'เลขออร์เดอร์',
+    order_items: 'รายการสินค้า',
+    order_date: 'วันที่สั่ง',
+    order_price: 'ราคา',
+    order_status: 'สถานะ',
+    
+    status_pending_pay: 'รอชำระเงิน',
+    status_pending: 'รอดำเนินการ',
+    status_producing: 'กำลังผลิต',
+    status_complete: 'เสร็จสิ้น',
+    status_cancel: 'ยกเลิก',
+    
+    step_service: 'เลือกบริการ',
+    step_upload: 'อัปโหลดไฟล์',
+    step_config: 'ระบุสเปก',
+    step_confirm: 'ยืนยันสั่งงาน',
+    
+    btn_next: 'ขั้นตอนถัดไป',
+    btn_back: 'ย้อนกลับ',
+    btn_confirm: 'ชำระเงินและสั่งงาน',
+    btn_add_money: 'เติมเงิน',
+  },
+  en: {
+    nav_home: 'Home',
+    nav_pricing: 'Pricing',
+    nav_track: 'Track Order',
+    nav_login: 'Sign In',
+    nav_logout: 'Sign Out',
+    hello: 'Hello',
+    balance: 'Balance',
+    points: 'Points',
+    tier_member: 'Tier Member',
+    
+    admin_hub: 'Admin Hub',
+    admin_erp: 'Enterprise ERP System',
+    admin_analytics: 'Analytics',
+    admin_orders: 'Order Pipeline',
+    admin_services: 'Services & Pricing',
+    admin_users: 'CRM Users',
+    admin_inventory: 'Inventory',
+    admin_finance: 'Finance & Receipt',
+    
+    stat_revenue: 'Total Revenue',
+    stat_users: 'Total Users',
+    stat_pending: 'Pending Orders',
+    stat_total_balance: 'Total Wallet Balance',
+    stat_loyalty: 'Points Distributed',
+    
+    chart_revenue: 'Revenue Insights',
+    chart_growth: 'User Growth',
+    chart_days: 'Last 7 Days',
+    
+    member_directory: 'Member Directory',
+    crm_desc: 'CRM & Wallet Management Hub',
+    search_placeholder: 'Search name or phone...',
+    
+    order_id: 'Order ID',
+    order_items: 'Items',
+    order_date: 'Date',
+    order_price: 'Price',
+    order_status: 'Status',
+    
+    status_pending_pay: 'Pending Pay',
+    status_pending: 'Pending',
+    status_producing: 'Producing',
+    status_complete: 'Completed',
+    status_cancel: 'Cancelled',
+    
+    step_service: 'Select Service',
+    step_upload: 'Upload File',
+    step_config: 'Specifications',
+    step_confirm: 'Confirmation',
+    
+    btn_next: 'Next Step',
+    btn_back: 'Go Back',
+    btn_confirm: 'Pay & Order Now',
+    btn_add_money: 'Top Up',
+  }
+};

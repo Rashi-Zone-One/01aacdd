@@ -1,0 +1,4 @@
+/* Minimal app styles; Tailwind is provided via CDN in index.html */
+:root { --bg: #fcfdfe; }
+html,body,#root { height: 100%; }
+body { background: var(--bg); }

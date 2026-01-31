@@ -1,0 +1,49 @@
+{
+  "name": "the-one-paper---online-printing-service",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "start": "serve -s dist -l 5000",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@google/genai": "^1.38.0",
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "serve": "^14.1.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "jsdom": "^27.4.0",
+    "playwright": "^1.58.1",
+    "prettier": "^3.8.1",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vitest": "^4.0.18",
+    "gh-pages": "^5.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "The One Paper - Online Printing Service",
+  "description": "A comprehensive online printing management system with user rewards, history tracking, and an admin dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
